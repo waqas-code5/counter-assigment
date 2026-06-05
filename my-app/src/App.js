@@ -1,4 +1,6 @@
 import{ useState } from "react";
+import Topicprops from "./pages/Topicprops";
+
 function Topicprops(){
     const[val , setval] = useState("")
     const getval = (e)=>{
